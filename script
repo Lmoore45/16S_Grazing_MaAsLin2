@@ -5,7 +5,7 @@ library(readr)
 library(readxl)
 
 # Set working directory to the project folder
-setwd("/Users/lmoore/Desktop/Documents/CSU/PhD/16s/Grazing_Microbiome")
+setwd("/Users/...")
 
 # Read in your ASV counts from a delimited text file
 Counts <- read_delim("rarefy.table.txt", delim = "\t", col_names = TRUE)
